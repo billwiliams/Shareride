@@ -1,5 +1,7 @@
 <html>
-   <head><title>Shareride Inc</title></head>
+   <head><title>Shareride Inc</title>
+  <link rel="stylesheet" type="text/css" href="forms.css" />
+   </head>
    <body>
       <h1>give a ride:</h1>
 

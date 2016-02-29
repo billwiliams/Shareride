@@ -5,6 +5,6 @@
 $fname   = $_SESSION['fname'];
 $femail  = $_SESSION['femail'];
 
-echo $fname;
+echo $femail;
 
  ?>

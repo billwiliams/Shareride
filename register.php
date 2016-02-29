@@ -1,5 +1,7 @@
 <html>
-   <head><title>Workflow System</title></head>
+   <head><title>Workflow System</title>
+  <link rel="stylesheet" type="text/css" href="forms.css" />
+   </head>
    <body>
       <h1>Register for an Account:</h1>
 

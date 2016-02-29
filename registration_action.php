@@ -1,5 +1,10 @@
 <?php
+/*
+*Registration_action.php
+* allows a user to register to shareinc  by providing username,password and email details
 
+
+*/
 include "Mysqldb.php";
 $con = new DB_con();
 

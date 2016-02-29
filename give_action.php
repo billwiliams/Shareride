@@ -1,5 +1,10 @@
 <?php
+/*
+*give_action.php
+* allows a user to share a ride by providing destination,origin and capacity details
 
+
+*/
 include "Mysqldb.php";
 $con = new DB_con();
 

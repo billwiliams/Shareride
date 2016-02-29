@@ -3,7 +3,7 @@
 include "Mysqldb.php";
 $con = new DB_con();
 
-// data insert code starts here.
+
 
 
 if(isset($_POST))
@@ -15,7 +15,8 @@ $available=1;
 
 
 
-$con->give_ride($origin,$destination,$capacity,$available);
+$con->give_ride($capacity,$origin,$destination,$available);
+header('Location: http://localhost:8080/Home.php');
 
 
 }

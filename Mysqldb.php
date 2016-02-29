@@ -18,7 +18,7 @@ class DB_con
   $res = mysql_query("INSERT users(username,email,password) VALUES('$username','$email','$password')");
   return $res;
  }
- public function give_ride($capacity,$origin,$destination)
+ public function give_ride($capacity,$origin,$destination,$available)
  {
   $res = mysql_query("INSERT rides(capacity,origin,destination,available) VALUES('$capacity','$origin', '$destination','$available')");
   return $res;
@@ -29,10 +29,15 @@ class DB_con
   $res=mysql_query("SELECT * FROM users WHERE `username`= '$name' AND `password` = '$password'");
   return $res;
  }
+ public function update_ride($id)
+ {
+  $res=mysql_query("UPDATE rides SET `available`=0 WHERE `id`= '$id' ");
+  return $res;
+ }
 
  public function get_ride()
  {
-  $res=mysql_query("SELECT * FROM rides WHERE `available` = '1'");
+  $res=mysql_query("SELECT * FROM rides WHERE `available` = 1 ");
   return $res;
  }
 }

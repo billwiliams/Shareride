@@ -1,4 +1,11 @@
 <?php
+nclude "Mysqldb.php";
+
+$con = new DB_con();
+//using the id update the ride in the database by setting the available to zero
+$member_id = $_REQUEST['id'];
+$results =$con->update_ride($member_id);
+$row = mysql_fetch_assoc($results);
 //if "email" variable is filled out, send email
   if (isset($_REQUEST['email']))  {
 

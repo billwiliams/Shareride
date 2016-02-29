@@ -18,6 +18,9 @@ while ($row = mysql_fetch_assoc($user)) {
     echo"none";
 
   }
+  session_start();
+  $_SESSION['fname']   = $row['username'];
+  $_SESSION['femail']  = $row['email'];
   header('Location: http://localhost:8080/Home.php');
 }
 

@@ -1,0 +1,22 @@
+body{
+
+  	background: url("/img/rider.jpg");
+    color: Cyan;
+    font-family: 'Tangerine', serif;
+    font-size: 60px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+
+    transform: translateX(-50%) translateY(-50%);
+}
+a {
+    color: #E238EC;
+    left:100%;
+    top: 15px;
+    text-decoration: none;
+}
+a:hover{
+  color: cyan;
+}

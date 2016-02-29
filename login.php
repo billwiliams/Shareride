@@ -1,9 +1,9 @@
 <html>
-   <head><title>Workflow System</title></head>
+   <head><title>Shareride inc</title></head>
    <body>
       <h1>Login:</h1>
 
-      <form action="registration_action.php" method="GET">
+      <form action="login_action.php" method="POST">
 
          Username: <input type="text" name="name" /><br />
          Password: <input type="password" name="pword" /><br />

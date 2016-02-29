@@ -1,7 +1,7 @@
 <?
-$servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "myDB";
+define('DB_SERVER','localhost');
+define('DB_USER','jharvard');
+define('DB_PASS' ,'crimson');
+define('DB_NAME', 'Shareride');
 
 ?>

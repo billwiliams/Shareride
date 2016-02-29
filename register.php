@@ -3,7 +3,7 @@
    <body>
       <h1>Register for an Account:</h1>
 
-      <form action="registration_action.php" method="GET">
+      <form action="registration_action.php" method="post">
 
          Username: <input type="text" name="name" /><br />
          Email: <input type="text" name="email" /><br />
